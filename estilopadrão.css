@@ -1,0 +1,65 @@
+   /* Padrão paginas*/
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    header {
+      padding: 20px;
+      margin: 0 auto;
+      background-color: #0b3a5b;
+      text-align: center;
+      color: white;
+    }
+
+    main {    
+      padding: 20px;
+      max-width: 5000px;
+      margin: auto;
+    }
+
+
+    /* footer */
+    footer {
+      background-color: #0b3a5b;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    /* Barra navegação padrão*/
+    .barra-nav {
+      background-color: #0b3a5b;
+    }
+
+    .barra-nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0px;
+
+    }
+
+    .barra-nav a {
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      padding: 14px 20px;
+    }
+
+    .barra-nav li {
+      display: inline-block;
+    }
+
+    .barra-nav a:hover {
+      background-color: #555;
+      font-size: 120%;
+    }
+
+
+        

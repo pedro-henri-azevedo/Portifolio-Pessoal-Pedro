@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre mim</title>
+  <link rel="stylesheet" href="estilopadrão.css">
+  <style>
+    /*especificações estilo pagina formação*/
+    main{
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 20px;
+    }
+    section, aside{
+      padding: 25x;
+      margin: 10px;
+    }
+
+    .img-aside{
+      width: 300px;
+      border: 2px solid black;
+      border-radius: 30px;
+    }
+
+    aside{
+      display: flex;
+      justify-content: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Pedro Henri Novais Azevedo</h1>
+    <h2>Portifólio pessoal</h2>
+
+  </header>
+  <nav class="barra-nav">
+    <ul>
+      <li><a href="Sobre mim.html">Sobre mim</a></li>
+      <li><a href="Formação.html">Formação</a></li>
+      <li><a href="projetos.html">Meus projetos</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
+  <main>
+    <!--Padrão de formações-->
+    <section class="">
+      <h1>Formação escolar</h1>
+      <p>Ensino medio tecnico completo, curso em administração pelo colégio Centro Territorial de Educação Profissional
+        do Sertão Produtivo de Caetité. </p>
+    </section>
+
+    <aside>
+      <img src="imagens/CETEP SERTÃO PRODUTIVO.png" class="img-aside">
+
+    </aside>
+
+     <section class="">
+      <h1>Lingua estrangeira</h1>
+      <p>
+        Tenho inglês avançado, tanto em leitura quanto em fala.
+      </p>
+     </section>
+
+    <aside>
+      <img src="imagens/linguaest.jpg" class="img-aside">
+
+    </aside>
+  </main>
+
+
+
+  <footer>
+    <p> 2025 - PEDRO HENRI NOVAIS AZEVEDO</p>
+  </footer>
+</body>
+
+</html>
